@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+/*mi codigo*/
+
+body {
+    font-family: 
+    'Open Sans', sans-serif;
+    background-color:
+    rgba(255, 255, 255, 0);
+}
+
+#container {
+    text-transform: normal;
+    text-align: center;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+h1, h2, h3, ul {
+    text-transform: uppercase;
+    font-weight: bolder ;
+}
+
+header {
+    width: auto;
+    min-height: 663px;
+    background-image: url(proyecto/imagen/Fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f5f0ed;
+}
+
+nav ul {
+    float: left;
+    width: 80%;
+    text-align: end;
+}
+
+li {
+    display: inline-block;
+    margin-left: 1%;
+    padding-top: 40px;
+    padding-right: 5px;
+}
+
+.logo {
+    float:left;
+    min-height: 62px;
+    padding-top: 20px;
+    padding-left: 40px;
+    }
+
+.clearfix{
+clear: both;   
+}
+
+.principal {
+    padding-top: 150px;
+    }
+
+hr {
+    height: 4px;
+    width: 10%;
+    background-color: #f5f0ed;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a{
+text-decoration: none;
+}
+li a {
+    color: #f5f0ed;
+}
+
+lavel a {
+    color:#ded6c0;
+}
+
+.box2 a {
+    color:#d03b40;
+}
+
+h1{
+    font-size: 44px;
+    
+
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+}
+
+.article1{ 
+    width: auto;
+    min-height: 400px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    
+.box2 a{
+    font-weight: bolder;
+}
+
+.article1 h3 {
+    padding-bottom: 20px;
+}    
+
+.box1 {
+    
+    display: inline-block;
+    width: 50%;
+    background-color: #d03b40;
+    color:#ded6c0;
+    text-align: center;
+    padding: 120px 0px;
+}
+
+.box2 {
+    display: inline-block;
+    width: 50%;
+    background-color: #ded6c0;
+    color:#d03b40;
+    padding: 120px 0px;
+}
+
+
+.bloqueiconos {
+    width: auto;
+    min-height: 580px;
+    background-color:
+    #f5f0ed;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: justify;
+    }
+
+.boxs1{
+    width: 50%;
+    float: left;
+    padding: 120px 0px;
+
+}
+
+.bloqueiconos img{
+    float: left;
+}
+
+.boxs1 img {
+    padding: 25px 10px;
+}
+.bloquecolores span{
+    float: left;
+    width: 50%;
+    
+}
+.article2{
+    width: auto;
+    min-height: 549px;
+    background-image: url(proyecto/imagen/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f5f0ed;
+}
+
+.desayunar {
+    padding: 150px 0px;
+}
+
+.desayunar p {
+    padding-top: 20px;
+}
+
+.desayunar h2 {
+    letter-spacing: 2px;
+}
+button {
+    padding: 10px;
+    border: 1px solid #f5f0ed;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f5f0ed;
+    margin-top: 50px;
+}
+.article2 h3 {
+    padding-bottom: 20px;
+} 
+
+footer {
+    min-height: 70px;
+    background-color: black;
+    color:#f5f0ed;
+    text-align: left;
+    line-height: 70px;
+    padding-left: 1%;
+}
